@@ -4,14 +4,6 @@
 <head>
   <title>Hello World</title>
   <script type="text/javascript" src="http://cdn.bootcss.com/vue/2.1.8/vue.js"></script>
-  <script type="text/javascript">
-  var app = new Vue({
-    el: '#app',
-    data: {
-      content: 'Hello Vue!'
-    }
-  })
-  </script>
 </head>
 
 <body>
@@ -20,7 +12,12 @@
   </div>
 
   <script type="text/javascript">
-  app.content = "123";
+  var app = new Vue({
+    el: '#app',
+    data: {
+      content: 'Hello Vue!'
+    }
+  })
   </script>
 </body>
 
